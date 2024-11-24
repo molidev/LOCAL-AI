@@ -17,7 +17,7 @@ Esta guía se encuentra en continua actualización, por lo que irá evolucionand
 🔹 2. [Configuración Inicial](#configuración-inicial) </br>
 🔹 3. [Instalación de Ollama](#instalación-de-ollama) </br>
 🔹 4. [Instalación de Docker](#instalación-de-docker) </br>
-🔹 5. [Instalación de Stable Diffusion](#instalación-de-stable-diffusion) </br>
+🔹 5. [Instalación de Stable Diffusion](#instalación-stable-diffusion) </br>
 🔹 6. [Ventajas e Inconvenientes](#ventajas-e-inconvenientes) 
 
 ---
@@ -228,6 +228,9 @@ y después añadir lo siguiente:
 
 ![image](https://github.com/user-attachments/assets/f04a7913-d03f-4483-b060-c2ede11642c4)
 
+Para finalizar, se usa de la siguiente manera, le pedimos que genere una imagen de X cosa y en la parte inferior seleccionaremos:
+
+![image](https://github.com/user-attachments/assets/87e8c2de-e3a4-48a5-80f6-1fa99678ab5e)
 
 
 ## Ventajas e Inconvenientes
