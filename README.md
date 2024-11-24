@@ -3,7 +3,11 @@
 # ¿Quieres ejecutar una IA en tu ordenador? 😎
 
 Has llegado al lugar adecuado, ármate de paciencia que ya comenzamos! A continuación tienes una guía para poder configurar y ejecutar una IA en tu ordenador. </br>
-Para ello, usaremos herramientas como WSL, Docker, Ollama y Stable Diffusion.
+Para ello, usaremos herramientas como <b>WSL, Docker, Ollama y Stable Diffusion</b>.
+
+Esta guía se encuentra en continua actualización, por lo que irá evolucionando. Se agradece cualquier consejo, recomendación y si dejais una ``star`` se agradece </br>
+![image](https://github.com/user-attachments/assets/21dc7c96-eb83-4b8b-88c5-46a92c30a572)
+
 
 ---
 
@@ -134,7 +138,19 @@ Crearemos una cuenta y ya podremos disfrutar de "correr" nuestro propio modelo d
 
 ![image](https://github.com/user-attachments/assets/cb2a9349-df73-44ab-91a8-9450726220c0)
 
-<ins>En la imagen salen otros modelos pero debido a pruebas ya he instalado otros</ins>
+<ins>En la imagen salen otros modelos que debido a las pruebas realizado ya he instalado</ins>
+
+### 3. Instalar más modelos + configuración
+
+Nos dirijimos a esta sección : ``Panel de administración``
+
+Aquí debemos tener la siguiente configuración, en la que le indicamos la BASE_URL de OLLAMA:
+
+![image](https://github.com/user-attachments/assets/25253fdb-508b-46ad-bb12-213e4a798826)
+
+Para instalar más modelos únicamente basta con ir a [modelos](https://ollama.com/search) y seleccionar el que mejor se adapte a nuestra máquina.
+
+
 
 
 
