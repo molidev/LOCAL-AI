@@ -161,6 +161,7 @@ Selecciona el modelo en un nuevo chat y a disfrutar:
 
 ## Instalación Stable Diffusion
 
+Nos permitirá crear todo tipo de imágenes introduciendo el prompt que queramos </br>
 Comenzaremos con la parte de requisitos de instalación, por ello ejecutaremos el siguiente comando:
 
 ```bash
@@ -207,7 +208,17 @@ Descargamos de Automatic1111 el instalador
 ```bash
 wget -q https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/webui.sh
 ```
+Ponemos el permiso de ejecución y lo ejecutamos:
 
+```bash
+chmod +x webui.sh
+./webui.sh --listen --api
+```
+Desde la la dirección [locahost:7860](http://localhost:7860) ya os dejará probarlo: 
+
+![image](https://github.com/user-attachments/assets/bfac5f54-f5cd-4cda-9207-7e97df303256)
+
+He llegado hasta aquí y quiero añadir stable diffusion a ``open-webui`` vamos a ello:
 
 
 ## Ventajas e Inconvenientes
