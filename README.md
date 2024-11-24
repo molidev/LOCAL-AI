@@ -36,10 +36,16 @@ Para ello, usaremos herramientas como WSL, Docker, Ollama y Stable Diffusion.
    ```bash
    wsl --install
    ```
-   Para evitar problemas, es necesario reiniciar el ordenador una vez finalice la instalación
+   Para evitar problemas, es necesario <b>reiniciar el ordenador</b> una vez finalice la instalación.
+   Una vez reiniciado accederemos de nuevo a ubuntu con:
+   
+   ```bash
+   wsl -d Ubuntu
+   ```
+   
    Una vez instalado introduciremos un nombre de usuario y contraseña (al escribirla, no se verá por pantalla)
    
-2. Actualización del sistema ubuntu
+3. Actualización del sistema ubuntu
 
    ⚠️ <ins>***Este paso es común para las personas que decidan optar por usar WSL o Linux nativo***</ins>
    
