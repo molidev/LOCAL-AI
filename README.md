@@ -13,7 +13,7 @@ Esta guía se encuentra en continua actualización, por lo que irá evolucionand
 
 ## ¿Qué vamos a ver? 🔎
 
-🔹 1. [Requisitos Previos](#requisitos-previos) </br>
+🔹 1. [Requisitos Previos](#requisitos-previos-) </br>
 🔹 2. [Configuración Inicial](#configuración-inicial) </br>
 🔹 3. [Instalación de Ollama](#instalación-de-ollama) </br>
 🔹 4. [Instalación de Docker](#instalación-de-docker) </br>
@@ -159,6 +159,17 @@ Selecciona el modelo en un nuevo chat y a disfrutar:
 
 ⚠️ <ins>***Recuerda que cuanto más sea pesado(más parámetros admita) el modelo, será más completo pero tienes que tener en cuenta los requisitos de tu máquina</ins>***
 
+
+## Ventajas e Inconvenientes
+
+Una vez que he probado con totalidad el sistemas, te dejo por aquí tienes una tabla resumen con algunas ventajas e inconvenientes para tener en cuenta, para mi la principal ventaja que tiene es la privacidad que tiene respecto a servicios contratados:
+
+| Ventajas                                                | Inconvenientes                                           |
+|---------------------------------------------------------|---------------------------------------------------------|
+| Control total sobre la configuración de tu IA.          | Requiere conocimientos técnicos avanzados.              |
+| No dependes de servicios en la nube.                    | Puede consumir muchos recursos del sistema.             |
+| Personalización según tus necesidades.                  | Configuración inicial puede ser compleja y lenta.       |
+| Ahorro en costes de uso de servicios externos.          | No es viable sin hardware compatible (GPU potente).     |
 
 
 
