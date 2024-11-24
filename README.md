@@ -118,8 +118,23 @@ Instalamos docker para poder ejecutar open-webui 😎
 ```bash
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
-Lanzamos el contenedor con [open-webui](https://openwebui.com/), es decir, controlaremos absolutamente todo desde una interfaz muy sencilla. No sólo, podemos usar el modelo Llama3.2 sino los que queramos a la vez, como iremos viendo.
+Lanzamos el contenedor con [open-webui](https://openwebui.com/), es decir, controlaremos absolutamente todo desde una interfaz muy sencilla. No sólo, podemos usar el modelo Llama3.2 sino los que queramos a la vez, como iremos viendo.</br>
+⚠️ <ins>***Si observamos el comando, le estamos indicando la url donde tenemos funcionando previamente OLLAMA***</ins>
 
 ```bash
-docker run -d --network=host -v open-webui:/app/backend/data -e OLLAMA_BASE_URL=http://127.0.0.1:11434 --name open-webui --restart always ghcr.io/open-webui/open-webui:main
+sudo docker run -d --network=host -v open-webui:/app/backend/data -e OLLAMA_BASE_URL=http://127.0.0.1:11434 --name open-webui --restart always ghcr.io/open-webui/open-webui:main
 ```
+Mediante el comando ``sudo docker ps`` podemos ver que está en funcionamiento:
+
+![image](https://github.com/user-attachments/assets/e426cc57-8a07-44ce-b6bc-1d18baa0fcdf)
+
+Y si has llegado hasta aquí, ahora sí, puedes ir al a tu navegador web y poner la dirección: [localhost:8080](http:\\localhost:8080) aquí: 
+
+Crearemos una cuenta y ya podremos disfrutar de "correr" nuestro propio modelo de IA en nuestro PC con toda la privacidad que ello conlleva:
+
+![image](https://github.com/user-attachments/assets/cb2a9349-df73-44ab-91a8-9450726220c0)
+
+<ins>En la imagen salen otros modelos pero debido a pruebas ya he instalado otros</ins>
+
+
+
