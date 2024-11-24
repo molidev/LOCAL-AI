@@ -220,6 +220,15 @@ Desde la la dirección [locahost:7860](http://localhost:7860) ya os dejará prob
 
 He llegado hasta aquí y quiero añadir stable diffusion a ``open-webui`` vamos a ello:
 
+Primero vamos a esta sección de open-webui:
+
+![image](https://github.com/user-attachments/assets/a34cebf7-f014-44f6-be3c-c77d34d1d899)
+
+y después añadir lo siguiente:
+
+![image](https://github.com/user-attachments/assets/f04a7913-d03f-4483-b060-c2ede11642c4)
+
+
 
 ## Ventajas e Inconvenientes
 
