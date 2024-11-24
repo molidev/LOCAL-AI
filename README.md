@@ -175,11 +175,40 @@ Instalamos Pyenv
 curl https://pyenv.run | bash
 ```
 
-Python 3.10
+Establecemos la path necesaria
+
+```bash
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+```
+
+Recargamos la consola, ya que hemos establecido el path
+```bash
+cd ~
+source .bashrc
+````
+El comando ``pynv -h`` ya debería de funcionar.
+
+Instalamos python 3.10 + lo ponemos global
 
 ```bash
 pyenv install 3.10
+pyenv global 3.10
 ```
+Ya tenemos los prerequisitos y ahora nos falta instalar stable diffusion:
+
+```bash
+mkdir stablediffusion
+cd stablediffusion
+```
+Descargamos de Automatic1111 el instalador
+
+```bash
+wget -q https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/webui.sh
+```
+
+
 
 ## Ventajas e Inconvenientes
 
