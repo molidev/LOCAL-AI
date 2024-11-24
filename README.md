@@ -149,6 +149,15 @@ Aquí debemos tener la siguiente configuración, en la que le indicamos la BASE_
 ![image](https://github.com/user-attachments/assets/25253fdb-508b-46ad-bb12-213e4a798826)
 
 Para instalar más modelos únicamente basta con ir a [modelos](https://ollama.com/search) y seleccionar el que mejor se adapte a nuestra máquina.
+Lo puedes ver de forma más gráfica aquí, hay que fijarse en el nombre exacto para que pueda ser instalado:
+
+![image](https://github.com/user-attachments/assets/5b5a41ee-4a38-48ae-a03a-0115fd1f487e)
+
+Selecciona el modelo en un nuevo chat y a disfrutar:
+
+![image](https://github.com/user-attachments/assets/c299cf5c-c259-48d7-a4e9-74cbc6266578)
+
+⚠️ <ins>***Recuerda que cuanto más sea pesado(más parámetros admita) el modelo, será más completo pero tienes que tener en cuenta los requisitos de tu máquina</ins>***
 
 
 
