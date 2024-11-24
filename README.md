@@ -6,7 +6,9 @@ Has llegado al lugar adecuado, ármate de paciencia que ya comenzamos! A continu
 Para ello, usaremos herramientas como <b>WSL, Docker, Ollama y Stable Diffusion</b>.
 
 Esta guía se encuentra en continua actualización, por lo que irá evolucionando. Se agradece cualquier consejo, recomendación y si dejais una ``star`` se agradece </br>
-![image](https://github.com/user-attachments/assets/21dc7c96-eb83-4b8b-88c5-46a92c30a572)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/21dc7c96-eb83-4b8b-88c5-46a92c30a572" width="400">
+</p>
 
 
 ---
@@ -14,7 +16,7 @@ Esta guía se encuentra en continua actualización, por lo que irá evolucionand
 ## ¿Qué vamos a ver? 🔎
 
 🔹 1. [Requisitos Previos](#requisitos-previos-) </br>
-🔹 2. [Configuración Inicial](#configuración-inicial) </br>
+🔹 2. [Configuración Inicial](#configuración-inicial-) </br>
 🔹 3. [Instalación de Ollama](#instalación-de-ollama) </br>
 🔹 4. [Instalación de Docker](#instalación-de-docker) </br>
 🔹 5. [Instalación de Stable Diffusion](#instalación-stable-diffusion) </br>
@@ -29,10 +31,10 @@ Esta guía se encuentra en continua actualización, por lo que irá evolucionand
 
 ---
 
-## Configuración Inicial
+## Configuración Inicial ✅
 
 ### 1. Configura WSL (Windows Subsystem for Linux)
-⚠️ <ins>***Este paso es sólo para las personas que quieran usar el sistema sin utilizar linux nativo***</ins>
+   ⚠️ <ins>***Este paso es sólo para las personas que quieran usar el sistema sin utilizar linux nativo***</ins>
 1. Instala WSL y Ubuntu 24.04.1 : </br>
 
    Nos dirijimos al símbolo del sistema (CMD) o PowerShell para introducir el siguiente comando:
@@ -61,6 +63,8 @@ Esta guía se encuentra en continua actualización, por lo que irá evolucionand
    sudo apt-get upgrade
    ```
    Es recomendable tener actualizado el sistema para evitar problemas futuros en los siguientes pasos 😉
+   
+---
 
 ## Instalación de OLLAMA
 Cuando hemos terminado la configuración inicial ya podemos proceder a instalar [OLLAMA](https://ollama.com/) (herramienta para ejecutar localmente modelos de redes neuronales)
@@ -73,7 +77,9 @@ curl -fsSL https://ollama.com/install.sh | sh
 Para comprobar que la instalación se ha realizado correctamente, nos dirijimos a un navegador web (Chrome, Firefox, Opera..) y accedemos a la siguiente dirección: 
 [localhost:11434](http://localhost:11434) en ella debe aparecernos un mensaje que pondrá: <ins>"Ollama is running"</ins>
 
-![image](https://github.com/user-attachments/assets/5816a9a5-1624-4c6d-97f5-a919cd5d9b88)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ab543570-2c26-418a-8cfd-64070b5e895b" width="350">
+</p>
 
 Ahora vamos a proceder a descargar el modelo [llama3.2](https://ollama.com/library/llama3.2), en la terminal, escribiremos el siguiente comando:
 ```bash
@@ -85,6 +91,8 @@ Ya va siendo hora de probar, no? 😜 Para poder hacer una primera prueba desde 
 ollama run llama3.2
 ```
 Esto funciona... pero nosotros queremos una interfaz tipo <b>ChatGPT</b> que sea más fácil de gestionar.</br> Por ello, procederemos con los siguientes pasos donde utilizaremos [open-webui](https://openwebui.com/) 🔎
+
+---
 
 ## Instalación de Docker
 
@@ -130,13 +138,17 @@ sudo docker run -d --network=host -v open-webui:/app/backend/data -e OLLAMA_BASE
 ```
 Mediante el comando ``sudo docker ps`` podemos ver que está en funcionamiento:
 
-![image](https://github.com/user-attachments/assets/e426cc57-8a07-44ce-b6bc-1d18baa0fcdf)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e426cc57-8a07-44ce-b6bc-1d18baa0fcdf">
+</p>
 
 Y si has llegado hasta aquí, ahora sí, puedes ir al a tu navegador web y poner la dirección: [localhost:8080](http:\\localhost:8080) aquí: 
 
 Crearemos una cuenta y ya podremos disfrutar de "correr" nuestro propio modelo de IA en nuestro PC con toda la privacidad que ello conlleva:
 
-![image](https://github.com/user-attachments/assets/cb2a9349-df73-44ab-91a8-9450726220c0)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/cb2a9349-df73-44ab-91a8-9450726220c0" width="800">
+</p>
 
 <ins>En la imagen salen otros modelos que debido a las pruebas realizado ya he instalado</ins>
 
@@ -146,18 +158,26 @@ Nos dirijimos a esta sección : ``Panel de administración``
 
 Aquí debemos tener la siguiente configuración, en la que le indicamos la BASE_URL de OLLAMA:
 
-![image](https://github.com/user-attachments/assets/25253fdb-508b-46ad-bb12-213e4a798826)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/25253fdb-508b-46ad-bb12-213e4a798826" width="1000">
+</p>
 
 Para instalar más modelos únicamente basta con ir a [modelos](https://ollama.com/search) y seleccionar el que mejor se adapte a nuestra máquina.
 Lo puedes ver de forma más gráfica aquí, hay que fijarse en el nombre exacto para que pueda ser instalado:
 
-![image](https://github.com/user-attachments/assets/5b5a41ee-4a38-48ae-a03a-0115fd1f487e)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5b5a41ee-4a38-48ae-a03a-0115fd1f487e" width="1000">
+</p>
 
-Selecciona el modelo en un nuevo chat y a disfrutar:
+Selecciona el modelo en el chat para poder utilizarlo:
 
-![image](https://github.com/user-attachments/assets/c299cf5c-c259-48d7-a4e9-74cbc6266578)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c299cf5c-c259-48d7-a4e9-74cbc6266578" width="1000" height="500">
+</p>
 
 ⚠️ <ins>***Recuerda que cuanto más sea pesado(más parámetros admita) el modelo, será más completo pero tienes que tener en cuenta los requisitos de tu máquina</ins>***
+
+---
 
 ## Instalación Stable Diffusion
 
@@ -232,6 +252,7 @@ Para finalizar, se usa de la siguiente manera, le pedimos que genere una imagen 
 
 ![image](https://github.com/user-attachments/assets/87e8c2de-e3a4-48a5-80f6-1fa99678ab5e)
 
+---
 
 ## Ventajas e Inconvenientes
 
