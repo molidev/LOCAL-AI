@@ -159,10 +159,31 @@ Selecciona el modelo en un nuevo chat y a disfrutar:
 
 ⚠️ <ins>***Recuerda que cuanto más sea pesado(más parámetros admita) el modelo, será más completo pero tienes que tener en cuenta los requisitos de tu máquina</ins>***
 
+## Instalación Stable Diffusion
+
+Comenzaremos con la parte de requisitos de instalación, por ello ejecutaremos el siguiente comando:
+
+```bash
+sudo apt install -y make build-essential libssl-dev zlib1g-dev \
+libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev \
+libncursesw5-dev xz-utils tk-dev libffi-dev liblzma-dev git
+```
+
+Instalamos Pyenv
+
+```bash
+curl https://pyenv.run | bash
+```
+
+Python 3.10
+
+```bash
+pyenv install 3.10
+```
 
 ## Ventajas e Inconvenientes
 
-Una vez que he probado con totalidad el sistemas, te dejo por aquí tienes una tabla resumen con algunas ventajas e inconvenientes para tener en cuenta, para mi la principal ventaja que tiene es la privacidad que tiene respecto a servicios contratados:
+Una vez que he probado con totalidad el sistema, te dejo por aquí una tabla resumen con algunas ventajas e inconvenientes para tener en cuenta, para mi la principal ventaja que tiene es la <b>privacidad</b> que tiene respecto a servicios contratados y que en una misma conversación utilizando el símbolo de  ``@`` permite mencionar a otros modelos que tengas instalados.
 
 | Ventajas                                                | Inconvenientes                                           |
 |---------------------------------------------------------|---------------------------------------------------------|
