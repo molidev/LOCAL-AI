@@ -11,8 +11,8 @@ Para ello, usaremos herramientas como WSL, Docker, Ollama y Stable Diffusion.
 
 🔹 1. [Requisitos Previos](#requisitos-previos) </br>
 🔹 2. [Configuración Inicial](#configuración-inicial) </br>
-🔹 3. [Instalación de Docker](#instalación-de-docker) </br>
-🔹 4. [Configuración de Ollama](#configuración-de-ollama) </br>
+🔹 3. [Instalación de Ollama](#intalación-de-ollama) </br>
+🔹 4. [Instalación de Docker](#instalación-de-docker) </br>
 🔹 5. [Instalación de Stable Diffusion](#instalación-de-stable-diffusion) </br>
 🔹 6. [Ventajas e Inconvenientes](#ventajas-e-inconvenientes) 
 
@@ -57,6 +57,30 @@ Para ello, usaremos herramientas como WSL, Docker, Ollama y Stable Diffusion.
    sudo apt-get upgrade
    ```
    Es recomendable tener actualizado el sistema para evitar problemas futuros en los siguientes pasos 😉
+
+## Instalación de OLLAMA
+Cuando hemos terminado la configuración inicial ya podemos proceder a instalar [OLLAMA](https://ollama.com/) (herramienta para ejecutar localmente modelos de redes neuronales)
+Gracias a esta herramienta podemos utilizar distintos [modelos](https://ollama.com/search), nosotros utilizaremos para probar [llama3.2](https://ollama.com/library/llama3.2)
+
+Procedemos a instalarla con el siguiente comando, el cuál podemos ver en la página oficial de Ollama:
+````bash
+curl -fsSL https://ollama.com/install.sh | sh
+````
+Para comprobar que la instalación se ha realizado correctamente, nos dirijimos a un navegador web (Chrome, Firefox, Opera..) y accedemos a la siguiente dirección: 
+[localhost:11434](http://localhost:11434) en ella debe aparecernos un mensaje que pondrá: <ins>"Ollama is running"</ins>
+
+![image](https://github.com/user-attachments/assets/5816a9a5-1624-4c6d-97f5-a919cd5d9b88)
+
+Ahora vamos a proceder a descargar el modelo [llama3.2](https://ollama.com/library/llama3.2), en la terminal, escribiremos el siguiente comando:
+```bash
+ollama pull llama3.2
+````
+Ya va siendo hora de probar, no? 😜 Para poder hacer una primera prueba desde la terminal, escribimos el comando: 
+
+```bash
+ollama run llama3.2
+```
+Esto funciona... pero nosotros queremos una interfaz tipo <b>ChatGPT</b> que sea más fácil de gestionar.</br> Por ello, procederemos con los siguientes pasos donde utilizaremos [open-webui](https://openwebui.com/) 🔎
 
 ## Instalación de Docker
 
