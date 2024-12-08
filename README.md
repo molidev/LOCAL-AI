@@ -209,14 +209,18 @@ Recargamos la consola, ya que hemos establecido el path
 cd ~
 source .bashrc
 ````
-El comando ``pynv -h`` ya debería de funcionar.
+El comando ``pyenv -h`` ya debería de funcionar.
 
 Instalamos python 3.10 + lo ponemos global
 
 ```bash
 pyenv install 3.10
+```
+
+```bash
 pyenv global 3.10
 ```
+
 Ya tenemos los prerequisitos y ahora nos falta instalar stable diffusion:
 
 ```bash
