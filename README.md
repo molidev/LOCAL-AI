@@ -56,7 +56,7 @@ Esta guía se encuentra en continua actualización, por lo que irá evolucionand
    ⚠️ <ins>***Este paso es común para las personas que decidan optar por usar WSL o Linux nativo***</ins>
    
    ```bash
-   sudo apt-get upgrade
+   sudo apt-get update
    ```
 
    ```bash
